@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2690A23D21EED04000710EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690A23C21EED04000710EDD /* AppDelegate.swift */; };
-		2690A23F21EED04000710EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690A23E21EED04000710EDD /* ViewController.swift */; };
-		2690A24221EED04000710EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2690A24021EED04000710EDD /* Main.storyboard */; };
 		2690A24421EED04100710EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2690A24321EED04100710EDD /* Assets.xcassets */; };
 		2690A24721EED04100710EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2690A24521EED04100710EDD /* LaunchScreen.storyboard */; };
+		2690A25121EED06C00710EDD /* SnapKitSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690A24E21EED06B00710EDD /* SnapKitSyntax.swift */; };
+		2690A25221EED06C00710EDD /* AppleSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690A24F21EED06B00710EDD /* AppleSyntax.swift */; };
+		2690A25321EED06C00710EDD /* KNConstraintsSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690A25021EED06B00710EDD /* KNConstraintsSyntax.swift */; };
+		2690A25521EED10500710EDD /* knConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2690A25421EED10500710EDD /* knConstraints.swift */; };
+		B3D5F04014B169915D1B2B82 /* Pods_AutoLayoutProgrammatically.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD703087C0145046554E0A2 /* Pods_AutoLayoutProgrammatically.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2690A23921EED04000710EDD /* AutoLayoutProgrammatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutProgrammatically.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2690A23C21EED04000710EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2690A23E21EED04000710EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2690A24121EED04000710EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2690A24321EED04100710EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2690A24621EED04100710EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2690A24821EED04100710EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2690A24E21EED06B00710EDD /* SnapKitSyntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitSyntax.swift; sourceTree = "<group>"; };
+		2690A24F21EED06B00710EDD /* AppleSyntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleSyntax.swift; sourceTree = "<group>"; };
+		2690A25021EED06B00710EDD /* KNConstraintsSyntax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KNConstraintsSyntax.swift; sourceTree = "<group>"; };
+		2690A25421EED10500710EDD /* knConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = knConstraints.swift; sourceTree = "<group>"; };
+		7B792A0A57F3FEA3E0127489 /* Pods-AutoLayoutProgrammatically.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutProgrammatically.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutProgrammatically/Pods-AutoLayoutProgrammatically.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD703087C0145046554E0A2 /* Pods_AutoLayoutProgrammatically.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayoutProgrammatically.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBB3F3A8067210EA71B751C /* Pods-AutoLayoutProgrammatically.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutProgrammatically.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutProgrammatically/Pods-AutoLayoutProgrammatically.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D5F04014B169915D1B2B82 /* Pods_AutoLayoutProgrammatically.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				2690A23B21EED04000710EDD /* AutoLayoutProgrammatically */,
 				2690A23A21EED04000710EDD /* Products */,
+				30E670A7F8070F9A0F6F9C34 /* Pods */,
+				2A15932E8B0C55153AE62D6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				2690A23C21EED04000710EDD /* AppDelegate.swift */,
-				2690A23E21EED04000710EDD /* ViewController.swift */,
-				2690A24021EED04000710EDD /* Main.storyboard */,
+				2690A24F21EED06B00710EDD /* AppleSyntax.swift */,
+				2690A25021EED06B00710EDD /* KNConstraintsSyntax.swift */,
+				2690A25421EED10500710EDD /* knConstraints.swift */,
+				2690A24E21EED06B00710EDD /* SnapKitSyntax.swift */,
 				2690A24321EED04100710EDD /* Assets.xcassets */,
 				2690A24521EED04100710EDD /* LaunchScreen.storyboard */,
 				2690A24821EED04100710EDD /* Info.plist */,
 			);
 			path = AutoLayoutProgrammatically;
+			sourceTree = "<group>";
+		};
+		2A15932E8B0C55153AE62D6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD703087C0145046554E0A2 /* Pods_AutoLayoutProgrammatically.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30E670A7F8070F9A0F6F9C34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B792A0A57F3FEA3E0127489 /* Pods-AutoLayoutProgrammatically.debug.xcconfig */,
+				DFBB3F3A8067210EA71B751C /* Pods-AutoLayoutProgrammatically.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2690A24B21EED04100710EDD /* Build configuration list for PBXNativeTarget "AutoLayoutProgrammatically" */;
 			buildPhases = (
+				A29D4448C87B2FDF0C731D24 /* [CP] Check Pods Manifest.lock */,
 				2690A23521EED04000710EDD /* Sources */,
 				2690A23621EED04000710EDD /* Frameworks */,
 				2690A23721EED04000710EDD /* Resources */,
+				FF93C2157607ABCE5B5ABFA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +156,67 @@
 			files = (
 				2690A24721EED04100710EDD /* LaunchScreen.storyboard in Resources */,
 				2690A24421EED04100710EDD /* Assets.xcassets in Resources */,
-				2690A24221EED04000710EDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A29D4448C87B2FDF0C731D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoLayoutProgrammatically-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF93C2157607ABCE5B5ABFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutProgrammatically/Pods-AutoLayoutProgrammatically-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AutoLayoutProgrammatically/Pods-AutoLayoutProgrammatically-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2690A23521EED04000710EDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2690A23F21EED04000710EDD /* ViewController.swift in Sources */,
+				2690A25521EED10500710EDD /* knConstraints.swift in Sources */,
+				2690A25221EED06C00710EDD /* AppleSyntax.swift in Sources */,
+				2690A25321EED06C00710EDD /* KNConstraintsSyntax.swift in Sources */,
+				2690A25121EED06C00710EDD /* SnapKitSyntax.swift in Sources */,
 				2690A23D21EED04000710EDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +224,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2690A24021EED04000710EDD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2690A24121EED04000710EDD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2690A24521EED04100710EDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +353,7 @@
 		};
 		2690A24C21EED04100710EDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B792A0A57F3FEA3E0127489 /* Pods-AutoLayoutProgrammatically.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +372,7 @@
 		};
 		2690A24D21EED04100710EDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBB3F3A8067210EA71B751C /* Pods-AutoLayoutProgrammatically.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_AutoLayoutProgrammatically {
+  umbrella header "Pods-AutoLayoutProgrammatically-umbrella.h"
+
+  export *
+  module * { export * }
+}
